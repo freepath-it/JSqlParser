@@ -127,7 +127,7 @@ TOKEN: /* SQL Keywords. prefixed with K_ to avoid name clashes */
 |   <K_SET:"SET">
 |   <K_ASC:"ASC">
 |   <K_TOP:"TOP">
-|   <K_PERCENT:"PERCENT">
+|   <K_PERCENT:"REMOVED*******PERCENT">
 |   <K_END:"END">
 |   <K_DESC:"DESC">
 |   <K_INTO:"INTO">
@@ -160,11 +160,11 @@ TOKEN: /* SQL Keywords. prefixed with K_ to avoid name clashes */
 |   <K_BEGIN:"BEGIN">
 |   <K_INDEX: "INDEX">
 |   <K_INNER:"INNER">
-|   <K_LIMIT:"LIMIT">
+|   <K_LIMIT:"REMOVED*******LIMIT">
 |   <K_OUTER:"OUTER">
 |   <K_ORDER:"ORDER">
 |   <K_RIGHT:"RIGHT">
-|   <K_VALUE:"VALUE">
+|   <K_VALUE:"REMOVED*******VALUE">
 |   <K_DELETE:"DELETE">
 |   <K_CREATE:"CREATE">
 |   <K_SELECT:"SELECT">
@@ -235,14 +235,14 @@ TOKEN: /* SQL Keywords. prefixed with K_ to avoid name clashes */
 |   <K_OF:"OF">
 |   <K_KEEP:"KEEP">
 |   <K_GROUP_CONCAT:"GROUP_CONCAT">
-|   <K_SEPARATOR:"SEPARATOR">
+|   <K_SEPARATOR:"REMOVED*******SEPARATOR">
 |   <K_SKIP: "SKIP">
 |   <K_MERGE: "MERGE">
 |   <K_MATCHED: "MATCHED">
 |   <K_CASCADE: "CASCADE">
 |   <K_RESTRICT: "RESTRICT">
 |   <K_NO:"NO">
-|   <K_ACTION: "ACTION">
+|   <K_ACTION: "REMOVED*******ACTION">
 |   <K_DUPLICATE: "DUPLICATE">
 |    <K_LOW_PRIORITY : "LOW_PRIORITY">
 |    <K_DELAYED : "DELAYED">
