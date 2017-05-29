@@ -141,6 +141,7 @@ TOKEN: /* SQL Keywords. prefixed with K_ to avoid name clashes */
 |   <K_FROM:"FROM">
 |   <K_OPEN:"OPEN">
 |   <K_CASE:"CASE">
+|   <K_END_CASE:"END CASE">
 |   <K_WHEN:"WHEN">
 |   <K_THEN:"THEN">
 |   <K_ELSE:"ELSE">
@@ -2457,7 +2458,7 @@ Expression CaseWhenExpression() #CaseWhenExpression:
              ( clause=WhenThenValue() { whenClauses.add(clause); } )+
     )
    [<K_ELSE> elseExp=SimpleExpression()]
-    <K_END>
+    (<K_END> | <K_END_CASE>)
     {
         caseExp.setSwitchExpression(switchExp);
         caseExp.setWhenClauses(whenClauses);
